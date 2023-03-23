@@ -7,71 +7,31 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* colors */
+
+/* background rgb(12, 0, 32) */
+/* link/border rgb(0, 183, 0) */
+/* rgb(255, 255, 255) */
+
 body {
   background-color: rgb(12, 0, 32);
 }
 
-body * {
+* {
   margin: 0;
   padding: 0;
-  font-family: Ubuntu;
-  color: rgb(255, 255, 255)
+
+  font-family: Ubuntu, sans-serif;
 }
 
 header {
   display: flex;
-  align-items: center;
 
-  margin: 3em 5em 0em;
+  margin: 1.5em auto;
 }
 
-h1 {
-  margin: 0 auto;
-}
-
-a.nav-link {
+header a {
   font-size: 1.5em;
-  text-decoration: none;
 
-  margin: 0 auto;
+  margin: 0em auto;
 }
-
-a.nav-link:hover {
-  color:rgb(0, 183, 0);
-  text-decoration: underline rgb(0, 183, 0);
-}
-
-a.nav-link:active {
-  text-decoration: none;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-img {
-  height: 10em;
-  width: 10em;
-
-  border: .25em solid rgb(0, 183, 0);
-  border-radius: 100em;
-
-  margin: 4em auto;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-}
-
-h2 {
-  margin: 0em auto 1em;
-}
-
-p {
-  margin: 0em 5em 1em;
-
-  text-align:center;
-}
-
