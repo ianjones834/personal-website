@@ -34,4 +34,32 @@ header a {
   font-size: 1.5em;
 
   margin: 0em auto;
+
+  color: white;
+  text-decoration: none;
+}
+
+header a:active {
+  text-decoration: underline;
+}
+
+header a:hover {
+  color: rgb(0, 183, 0);
+}
+
+
+
+main {
+  display: flex;
+  margin: 0 auto;
+}
+
+img {
+  height: 10em;
+  width: 10em;
+
+  border: .25em solid rgb(0, 183, 0);
+  border-radius: 50em;
+
+  margin: 3em auto;
 }
